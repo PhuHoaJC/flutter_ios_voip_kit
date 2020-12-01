@@ -148,7 +148,7 @@ class _IncomingCallPageState extends State<IncomingCallPage> {
       floatingActionButton: isTalking
           ? FloatingActionButton.extended(
               icon: const Icon(Icons.cancel),
-              label: const Text(
+              label: Text(
                 'End call',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
