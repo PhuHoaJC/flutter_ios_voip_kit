@@ -53,7 +53,7 @@ class CallKitCenter: NSObject {
         providerConfiguration.maximumCallsPerCallGroup = 1
         providerConfiguration.maximumCallGroups = maximumCallGroups
         providerConfiguration.supportedHandleTypes = [.generic]
-        providerConfiguration.ringtoneSound = "ring.wav"
+        // providerConfiguration.ringtoneSound = "ring.wav"
         providerConfiguration.iconTemplateImageData = UIImage(named: self.iconName)?.pngData()
         self.provider = CXProvider(configuration: providerConfiguration)
         self.provider?.setDelegate(delegate, queue: nil)
